@@ -1,3 +1,17 @@
 start with git hub 
-1) create repository from git hub without selecting any cgeck box
-2) then run 
+1) create repository from git hub without selecting any check box
+2) then run the commands as given on the same page to initialize 
+eg- $ git init
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/vampireayushi/blah1.git
+git push -u origin masterInitialized empty Git repository in C:/Users/Ayushi/Desktop/git_learning/.git/
+
+3) run the above commands in git bash (select the folder which you want to initialize by right click and open git bash)
+4) run command ls -la to view all files , you ll see .git file which means you have created a new repository.
+5) now you can create one document in local(i.e document in the folder which has been initialised)
+6) in git bash type git status- to see untracking files(files which are not staged)
+7) git add filename (this add the file in staging area)
+8) git status ( now filename is in green in color which means file is added to stage).
+9) git commit -m meassage1
+10) git push origin master ( this will add file to git repository in git hub to branch master)
